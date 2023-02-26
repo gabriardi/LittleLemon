@@ -1,0 +1,40 @@
+{
+	"name": "Python 3 & mysql",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "littlelemon-capstone",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"akamud.vscode-theme-onedark",
+				"akamud.vscode-theme-onelight",
+				"naumovs.color-highlight",
+				"Equinusocio.vsc-community-material-theme",
+				"mikestead.dotenv",
+				"donjayamanne.git-extension-pack",
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"GitHub.vscode-pull-request-github",
+				"eamodio.gitlens",
+				"ecmel.vscode-html-css",
+				"oderwat.indent-rainbow",
+				"PKief.material-icon-theme",
+				"Equinusocio.vsc-material-theme",
+				"equinusocio.vsc-material-theme-icons",
+				"unifiedjs.vscode-mdx",
+				"xyc.vscode-mdx-preview",
+				"zhuangtongfa.material-theme",
+				"christian-kohler.path-intellisense",
+				"ms-python.vscode-pylance",
+				"voldemortensen.rainbow-tags",
+				"humao.rest-client",
+				"Gruntfuggly.todo-tree"
+			]
+		}
+	},
+	"forwardPorts": [
+		8000
+	]
+}
