@@ -30,7 +30,8 @@
 				"ms-python.vscode-pylance",
 				"voldemortensen.rainbow-tags",
 				"humao.rest-client",
-				"Gruntfuggly.todo-tree"
+				"Gruntfuggly.todo-tree",
+				"formulahendry.vscode-mysql"
 			]
 		}
 	},
