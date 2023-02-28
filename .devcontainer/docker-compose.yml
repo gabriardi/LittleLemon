@@ -19,8 +19,10 @@ services:
   db:
     image: mysql:latest
     restart: unless-stopped
+    command: --init-file /data/application/init.sql
     volumes:
       - mysql-data:/var/lib/mysql
+      - ./init.sql:/data/application/init.sql
     environment:
       MYSQL_DATABASE: 'db'
       MYSQL_USER: 'user'
