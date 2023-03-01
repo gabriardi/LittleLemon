@@ -7,6 +7,10 @@ from rest_framework.permissions import IsAuthenticated
 # Create your views here.
 
 
+def index(request):
+    return render(request, 'index.html', {})
+
+
 class MenuItemView(ListCreateAPIView):
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
